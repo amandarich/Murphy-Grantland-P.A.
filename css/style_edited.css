@@ -1,0 +1,1260 @@
+  
+/* Fonts used=    
+  Myriad Pro Regular
+  Copperplate Regular
+*/
+
+/* Colors=
+    #fffaf0- Cream background...font color
+    #005ea5 - lighter blue(logo blue) font color
+    #101820 - dark dark blue  font color
+    #001b57 - navy blue  nav bar
+*/
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+
+
+
+
+
+/**  Header- Mobile **/
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html * { 
+   font-family: 'Raleway', sans-serif;
+}
+
+body {
+  /*background: #001b57;*/
+  background: #a8a8a8;
+}
+
+.max_width{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper_main {
+  background: url(../img/city4.jpg) no-repeat;
+  background-size: contain;
+  /*background-attachment: fixed;*/
+  background-position: 0 375px;
+  width: 100%;
+
+}
+
+.wrapper {
+  background: white;  
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 115px;
+}
+
+.site_header {
+  background: white;
+}
+
+.site_header .img{
+  display: inline-block;
+  width: 60%;
+  margin: 0 0 0 21%;
+}
+
+.site_header img {
+  width: 100%;
+}
+
+.secondary_nav {  
+  margin-top: -30px;
+}
+
+.secondary_nav li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  width: 29%; 
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+.secondary_nav a{
+  text-decoration: none;
+  color: #101820;;
+  display: inline-block;
+  font-size: 1em;
+  width: 100%;
+  vertical-align: top;
+}
+
+.secondary_nav a:hover {
+  color: #fae274;
+}
+
+.sign_in:hover {
+  color: #fae274;
+}
+
+.sign_in { 
+  background: #101820;
+  color: #fffaf0;
+  border: none;
+  font-size: 1em;
+  padding: 10px 40%;
+  width: 100%;
+}
+
+.contact_info {
+  display: none;
+  /*float: right;
+  text-align:right;
+  margin-right: 9%;*/
+}
+
+/*.contact_info p {
+  font-size: 0.7em;
+  font-weight: bold;
+  line-height: 0.5em;
+}*/
+
+/*.contact_info p:first-child{
+  margin-top: 30px;
+}*/
+/*
+.contact_info p:nth-child(2) {
+  margin-bottom: 30px;
+}*/
+
+/*.contact_info p:last-child {
+  margin-bottom: 30px;
+}*/
+
+.main_nav { 
+  background: white;
+}
+
+.main_nav_ul .extra {
+  display: none;
+}
+
+.main_nav ul{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main_nav li{
+  list-style: none;
+  /*display: inline-block;*/
+ /* margin-left: 5%;*/
+  height: 40px;
+  /*width: 21%;*/
+  text-align: center;
+  background: #001b57;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main_nav a {
+  color: white;
+  font-size: 1em;
+  /*font-family: Copperplate;*/
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main_nav a:hover{
+  /*background: #eee6da;*/
+  color: #fae274;
+  background: white;
+}
+
+/*.background_image img{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+*/
+
+
+
+
+
+
+
+
+
+/**  Attorney Page Mobile  **/
+
+
+.attorney_info img {
+  float: right;
+  width: 40%;
+  margin: 0 0 3% 2%;
+}
+
+.attorney_info {
+  margin: 10px 3% 0 3%;
+}
+
+.attorney_info h1 {
+  color: #005ea5;
+  line-height: 5px;
+  font-size: 1.5em;
+}
+
+.attorney_info h5{
+  border-bottom: 1px solid black;
+  color: #005ea5;
+}
+
+.attorney_info a {
+  color: #005ea5;
+}
+
+.attorney_info p {
+  font-size: 1em;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.p_info{
+  width: 98%;
+  float: left;
+  padding: 0 0 50px 0;
+
+}
+/*
+.contact_wrapper {
+  background: white;
+  padding: 10px 2% 10px 2%;
+  margin-top: 30px;
+  box-shadow: 5px 5px 2px #6c6c6c;
+}*/
+
+.contact_attorney_info{
+  margin-bottom: 20px;
+}
+
+.contact_attorney_info a{
+  font-size: 0.8em;
+}
+
+.contact_attorney_button {
+  background: #005ea5;
+  background-image: url(../img/phone2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 38%;
+  color: white;
+  border: none;
+  padding: 10px 1%;
+  font-size: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact_button form{
+  margin: 30px 0 0 0;
+  width: 100%;
+}
+
+.contact_attorney_button:hover{
+  background: ;
+  color: #fae274;
+}
+
+.contact_attorney_info a:hover{
+  color: #fae274;
+}
+
+
+/*.attorney_info p:first-child{
+  margin: 10px 0 60px 0;
+}*/
+
+.practice_areas {
+  clear: both;
+  background: #6c6a6d;
+  /*box-shadow: 5px 5px 2px #6c6c6c;*/
+  height: 275px;
+  padding: 0 2% 0 5%;
+  color: #5fb8fc;
+  margin-top: 15px;
+}
+
+.practice_areas ul, .education ul, .admissions ul, .memberships ul{
+  margin: 0;
+  padding: 0;
+ /* margin-left: 2%;*/
+  list-style: none;
+}
+
+.education ul, .admissions ul, .memberships ul{
+  font-size: 0.8em;
+}
+
+.education li, .admissions li, .memberships li{
+  padding: 1% 1% 2% 3%;
+  color: white;
+  background: url(../img/images/images/bullet_new_03.png) no-repeat left 7px;
+  font-family: Copperplate;
+  margin-bottom: 10px;
+
+}
+
+.education li, .admissions li, .memberships li{
+  padding-left: 7%;
+  font-size: 1.2em;
+}
+
+/*.color {
+  background: #f4f4f5;
+}
+*/
+
+.practice_areas a{
+  text-decoration: none;
+  color: #fae274;
+  padding-left: 5%;
+  font-size: 1em;
+  font-family: Copperplate;
+}
+
+.practice_areas a:hover{
+  color: white;
+}
+
+.practice_areas li{
+  background-position: 0 15px;
+  padding: 1% 1% 2% 3%;
+  color: white;
+  background: url(../img/images/images/bullet_new_03.png) no-repeat;
+  font-family: Copperplate;
+  margin-bottom: 10px;
+}
+
+.content_wrapper {
+  background: #e1dee5;
+}
+
+.education {
+  background: #6c6a6d;
+  /*box-shadow: 5px 5px 2px #6c6c6c;*/
+  height: 275px;
+  padding: 2px 2% 0 5%;
+  color: #5fb8fc;
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.admissions {
+  background: #6c6a6d;
+  /*box-shadow: 5px 5px 2px #6c6c6c;*/
+  margin-top: 15px;
+  height: 275px;
+  padding: 2px 2% 0 5%;
+  color: #5fb8fc;
+  font-size: 1em;
+}
+
+.memberships {
+  background: #6c6a6d;
+  /*box-shadow: 5px 5px 2px #6c6c6c;*/
+  /*height: 450px;*/
+  margin-top: 15px;
+  padding: 2px 2% 20px 5%;
+  color: #5fb8fc;
+  font-size: 1em;
+}
+
+.practice_areas h2, .education h2, .admissions h2, .memberships h2 {
+  border-bottom: 1px solid black;
+}
+
+.cases {
+  clear: both;
+  margin: 0 10% 0 10%;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.cases h2{
+  color: black;
+}
+
+.cases p{
+  font-size: 0.8em;
+}
+
+/*.attorney_info form{
+  margin-top: 50px;
+}*/
+
+
+
+
+
+
+
+
+/**  Practice Areas - Mobile  **/
+
+/*.featured_area {
+  float: left;
+  width: 43%;
+  margin: 40px 5% 0 10%;
+  height: 500px;
+}*/
+.page_title {
+  font-size: 1.5em;
+  border-bottom: 1px solid black;
+  color: #005ea5;
+  padding-top: 20px;
+  margin-left: 3%;
+  padding-bottom: 10px;
+}
+
+.featured_area {
+  margin: 0 3%;
+}
+
+.featured_area p {
+  /*font-family: "Myriad Pro";*/
+  line-height: 37px;
+  color:#101820;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+
+}
+
+.other {
+  font-size: 1.2em;
+  border-bottom: 1px solid black;
+  color: #005ea5;
+  padding-top: 20px;
+  margin-left: 3%;
+  padding-bottom: 10px;
+}
+
+.list {
+  background: #6c6a6d;
+}
+
+.links_other_areas ul{
+  float: right;
+  list-style: none;
+  margin: 20px 0;
+  padding: 15px 3%;
+  width: 100%;
+}
+
+.links_other_areas li {
+  font-size: 1em;
+  margin-bottom: 30px;
+  background: url(../img/images/images/bullet_new_03.png) no-repeat left 8px;
+  padding-left: 6%;
+}
+
+
+.links_other_areas a {
+  list-style: none;
+  color: #fae274;
+  font-family: Copperplate;
+  text-decoration: none;
+}
+
+.links_other_areas a:hover{
+  color: white;
+}
+
+.attorneys {
+  clear: both;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-top: 42px;
+}
+
+.attorneys h2{
+  font-size: 1.2em;
+  color: #005ea5;
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+  margin-left: 3%;
+  padding-bottom: 10px
+}
+
+.attorneys a{
+  text-decoration: none;
+  line-height: 3px;
+  width: 100%;
+}
+
+.blue{
+  color: #005ea5;
+  font-weight: bold
+}
+
+.black {
+  color: #101820;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-bottom: 50px;
+}
+
+.murphy, .livoti, .kull, .moore, .neil, .frye, .farr, .newton {
+  display: inline-block;
+  width: 49%;
+  margin: 0 auto;
+}
+
+/*.murphy, .livoti, .kull, .moore, .neil, .frye, .farr, .newton:hover{
+  box-shadow: 5px 5px 10px #005ea5;
+}*/
+
+.attorneys img:hover{
+  box-shadow: 10px 10px 20px #a8a8a8;
+}
+
+.image {
+  width: 78%;
+}
+
+.image img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/**  Homepage - Mobile  **/
+
+
+.mission h1 {
+  font-family: Copperplate;
+  font-size: 1.5em;
+  text-align: center;
+  color: #005ea5;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.line{
+  background: #101820;
+  height: 1px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.mission {
+  margin: 0;
+  background: #e1dee5;
+}
+
+.mission p{
+  font-size: 1em;
+  text-align: center;
+  color: #101820;
+  padding-bottom: 30px;
+}
+
+.mission span{
+  font-family: Copperplate;
+  font-size: 1.3em;
+  color: #005ea5;
+}
+
+.practice_areas_header_home {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.practice_areas_header_home h2{
+  color: #005ea5;
+  font-size: 1.2em;
+  margin-left: 3%;
+  padding-top: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.practice_areas_header_home p{
+  color: black;
+  font-family: Helvetica;
+  font-size: 0.7em;
+  margin-left: 5%;
+}
+
+.practice_areas_home{
+  background: #6c6a6d;
+  width: 100%;
+  padding-top:20px;
+  font-size: 1em;
+  margin-top: 60px;
+}
+
+.margin{
+  margin: 0 3%;
+
+}
+
+.practice_areas_home ul{
+  margin:0;
+  padding: 0;
+  padding-bottom: 13px;
+}
+
+.practice_areas_home li {
+  padding: 7px 0 10px 0;
+  list-style: none;
+  width: 100%;
+  margin:0;
+  display: inline-block;
+  background: url(../img/images/images/bullet_new_03.png) no-repeat left 14px;
+  padding-left: 6%;
+}
+
+.practice_areas_home a {
+  font-family: Copperplate;
+  color: #fae274;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.practice_areas_home a:hover{
+  color: white;
+}
+
+.featured_attorney_header{
+  width: 100%;
+  padding-top: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.featured_attorney_header h2{
+  color: #005ea5;
+  font-size: 1.2em;
+  margin-left: 3%;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+
+}
+
+.featured_attorney {
+  /*background: #6c6a6d;*/
+  width: 100%;
+  font-size: 1em;
+  padding-bottom: 30px;
+}
+
+
+.transparent {
+  width: 100%;
+}
+
+.lawyer_image {
+  width: 60%;
+}
+
+.lawyer_image img {
+  width: 46%;
+  display: block;
+}
+
+.lawyer_image img:hover{
+  box-shadow: 10px 10px 20px #a8a8a8;
+}
+
+.info {
+  width: 54%;
+  float: left;
+}
+
+.info h1, .info h5 {
+  color:  #005ea5;
+  margin: 0;
+  padding:0;
+}
+
+.info >p, .info > a {
+  color: #101820;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.info > a{
+  color: #005ea5;
+}
+
+.info > a:hover{
+  color: #fae274;
+}
+
+.info h1 {
+  font-size: 1em;
+}
+
+/*.contact {
+  background: #005ea5;
+  color: #fffaf0;
+  border-radius: 7px;
+  border: none;
+  padding: 15px 20% 15px 20%;
+  font-size: 1.7vw;
+}*/
+
+/*form {
+  margin-left: 30%;
+  width: 42%;
+}*/
+
+.contact {
+  background: #005ea5;
+  /*background-image: url(../img/phone2.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 38%;
+  color: white;
+  border: none;
+  padding: 15px 1%;
+  font-size: 1em;
+  margin: 13px 0;
+  width: 100%;
+}
+
+.contact:hover{
+  color: #fae274;
+}
+
+
+
+
+
+
+
+
+
+
+/**  Footer - Mobile  **/
+
+.footer_left h3{
+  color: #fffaf0;
+  font-size: 1em;
+  margin-left: 10%;
+  margin-right: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.news {
+  margin-left: 10%;
+}
+
+.news p{
+  color: #fffaf0;
+  width: 97%;
+  font-family: Helvetica;
+  font-size: 0.8em; 
+}
+
+.first p{
+  border-bottom: 1px solid white;
+  padding-bottom: 25px;
+}
+
+.footer_image {
+  display: none;
+  /*float: left;
+  width: 53%;*/
+}
+
+.footer_image img{
+  border: 1px solid #fffaf0;
+}
+
+.footer_left {
+  background: #101820;
+  float: left;
+  width: 60%;
+  height: 450px;
+}
+
+.address{
+  margin-top: 70px;
+}
+
+.footer_nav ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 22px;
+  text-align: left;
+
+}
+
+.footer_nav li {
+  list-style: none;
+  line-height: 35px;
+}
+
+.footer_nav a {
+   color: #fffaf0;
+   text-decoration: none;
+   font-size: 0.8em;
+}
+
+.footer_nav a:hover{
+  color:  #fae274;
+}
+
+.footer_right {
+  background: #005ea5;
+  float: left;
+  width: 40%;
+  height: 450px;
+}
+
+.footer_right p{
+  margin-top: 30px;
+  margin-left: 5%;
+  color: #fffaf0;
+  font-size: 0.8em;
+}
+
+.footer_right a{
+  margin-left: 5%;
+  color: #fffaf0;
+  font-size: 0.8em;
+}
+
+.email:hover{
+  color:  #fae274;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 680px){
+
+
+/**  Attorneys media queries  **/
+
+
+  .site_header .img{
+    float: left;
+    width: 40%;
+    margin: 0 0 0 10%;
+  }
+
+  .secondary_nav{
+    float: left;
+    width: 50%;
+    margin-top: 0;
+  }
+
+  .secondary_nav li{
+    width: 27%;
+  }
+
+  .contact_attorney_button{
+    font-size: 1.2em;
+  }
+
+  .contact_attorney_info a {
+    font-size: 1em;
+  }
+
+  .footer_nav ul {
+    margin-left: 12%;
+  }
+
+  .footer_nav a {
+    font-size: 1em;
+  }
+
+  .footer_right p{
+    font-size: 1em;
+  }
+
+
+/**  Practice Area Media Queries  **/
+
+/**   Homepage Media Queries **/
+
+  .mission{
+    height: 265px;
+    padding: 2% 3%;
+  }
+
+  .practice_areas_header_home p {
+    font-size: 1em;
+  }
+
+  .practice_areas_home a{
+    font-size: 1.2em;
+  }
+
+  .info h1{
+    font-size: 1.7em;
+  }
+
+  .info h5{
+    margin-bottom: 20px;
+  }
+
+  .info >p, .info > a{
+    font-size: 1em;
+  }
+
+  .contact{
+    font-size: 1.4em;
+  }
+
+  .footer_image{
+    float: left;
+    display: inline-block;
+    width: 23%;
+  }
+
+  .footer_image img{
+    width: 100%;
+  }
+
+  /*.news{
+    margin-bottom: 20px;
+  }*/
+
+  .news p{
+    float: left;
+    width: 53%;
+    margin-left: 3%;
+    width: 53%;
+    margin-left: 7%;
+  }
+
+  .first p{
+    border: none;
+  }
+
+  .footer_left h3{
+    font-size: 1.3em;
+  }
+
+/* .hompage ul {
+    margin-right: 3%;
+  }*/
+
+
+}
+
+
+
+
+@media screen and (min-width: 900px){
+
+
+/**  Attorneys media queries  **/
+
+
+  /*.contact_info{
+    display: block;
+    float: right;
+    text-align:right;
+    
+  }*/
+
+  .contact_info{
+    display: block;
+    text-align: right;
+    padding-top: 80px;
+    margin-right: 10%;
+  }
+
+  .contact_info p {
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 0.5em;
+  }
+
+  .contact_info p:first-child{
+    margin-top: 30px;
+  }
+
+  .contact_info p:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+  .contact_info p:last-child {
+    margin-bottom: 30px;
+  }
+
+
+  .main_nav {
+    height: 50px;
+    white-space: nowrap; 
+    background: #001b57;
+  }
+
+  .main_nav ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .main_nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 6px;
+    height: 10px;
+  }
+
+   .main_nav_ul .extra{
+    display: inline-block;
+    text-decoration: none;
+    color: #fffaf0;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .main_nav_ul .extra:hover{
+    color: #005ea5;
+    background: none;
+  }
+
+
+  .main_nav a {
+    text-decoration: none;
+    color: #fffaf0;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .main_nav a:hover{
+    color: #fae274;
+    background: none;
+
+  }
+
+  .site_header form {
+    float: right;
+    width: 7%;
+    margin: 6px 10% 0 0;
+    text-align: right;
+  }
+
+  .wrapper_main{
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: top center;
+  }
+
+  .sign_in{
+    border-radius: 5px;
+    padding: 5px;
+    
+  }
+
+  .practice_areas h2, .education h2, .admissions h2, .memberships h2{
+    padding-bottom: 8px;
+  }
+
+  .practice_areas li, .education li, .admissions li, .memberships li {
+    padding: 1% 0 0 3%;
+    font-size: 1.2em;
+     background: url(../img/images/images/bullet_new_03.png) no-repeat left;
+  }
+
+  .practice_areas a{
+    padding-left: 0;
+  }
+
+  .practice_areas{
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .education{
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .admissions{
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .memberships{
+    margin: 15px auto;
+    width: 90%;
+  }
+
+  .footer_nav ul{
+    margin-left: 22%;
+  }
+
+  .attorney_info h1{
+    font-size: 2em;
+  }
+
+  .contact_attorney_button{
+    background-image: none;
+    width: 20%;
+    border-radius: 5px;
+  }
+
+/**  Practice Area Media Queries  **/
+
+  .links_other_areas ul {
+    width: 90%;
+    margin: 20px 5%;
+    padding-top: 30px;
+  }
+
+  .murphy, .livoti, .kull, .moore, .neil, .frye, .farr, .newton{
+    width: 32.5%;
+  }
+
+  .last_two {
+    margin: 0 17%;
+    width: 100%;
+  }
+
+  .links_other_areas a{
+    font-size: 1.3em;
+  }
+
+
+/** Homepage media queries **/
+
+  .lawyer_image img{
+    width: 30%;
+  }
+
+  .mission h1{
+    font-size: 2em;
+  }
+
+  .mission p {
+    font-size: 1.5em;
+  }
+
+  .mission {
+    height: 375px;
+  }
+
+  .mission span{
+    font-size: 1.5em;
+  }
+
+  .practice_areas_header_home h2 {
+    font-size: 1.5em;
+  }
+
+  .featured_attorney_header h2 {
+    font-size: 1.5em;
+  }
+
+  .info h1{
+    font-size: 2.5em;
+  }
+
+  .news p{
+    font-size: 1em;
+  }
+
+  .practice_areas_home{
+    width: 90%;
+    margin: 60px auto 0 auto;
+  }
+
+  .margin{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer_image{
+    width: 19%;
+  }
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+  .footer_image{
+    width: 15%;
+  }
+
+.education li, .admissions li, .memberships li {
+  font-size: 1.5em;
+}
+
+
+
+
+}
+
+
+
+
