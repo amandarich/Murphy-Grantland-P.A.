@@ -38,13 +38,17 @@
 
 						<form action="/tools/process_for.php" method="post">
 						
-				            <input class="sign_in" type="submit" value="SIGN IN"/>
+				            <input class="sign_in" type="submit" value="Sign In"/>
 			        			
 					    </form>
 
 						<nav class="secondary_nav">
 
-							<ul>
+							<a class="button hvr-grow" href="#">
+								<h5>Menu</h5>
+							</a>
+
+							<ul class="secondary_nav_ul">
 
 								<li><a href="index.html">Home</a></li>
 
@@ -72,10 +76,10 @@
 				</header>
 
 				<nav class="main_nav clearfix">
-			    	
-			    	<ul class="main_nav_ul clearfix">
+		    	
+			    	<ul class="main_nav_ul  clearfix">
 			    		
-			    		<li class="extra" ><a href="index.html">Home</a></li>
+			    		<li class="extra"><a href="index.html">Home</a></li>
 
 						<li><a href="#">Who We Are</a></li>
 
@@ -116,29 +120,21 @@
 
 						<div class="contact_wrapper">
 
-							<div class="contact_button">
-
-								<form action="/tools/process_for.php" method="post">
-						
-				            		<input class="contact_attorney_button" type="submit" value="Contact"/>
-				    			
-					    		</form>
-
-				    		</div>
-
 							<div class="contact_attorney_info">
 
-								<a href="mailto:jrmurphy@murphygrantland.com?Subject=Hello%20again" target="_top">Email: jrmurphy@murphygrantland.com</a>
+								<div class="contactBox">
 
-								<p>Phone: 803-782-4100 ext. 1231<br/>Direct Dial 454-1231<br/>Fax: 803-782-4140</p>
+									<a href="mailto:jrmurphy@murphygrantland.com?Subject=Hello%20again" target="_top">Email: jrmurphy@murphygrantland.com</a>
+
+									<p>Phone: 803-782-4100 ext. 1231<br/>Direct Dial 454-1231<br/>Fax: 803-782-4140</p>
+
+								</div>
 		
 							</div>
 
 			    		</div>
 			    		
 					</div> <!--  END .attorney_info div -->
-
-					<div class="line"></div>
 
 
 					<div class="practice_areas clearfix">
@@ -271,7 +267,7 @@
 				
 			</footer>
 		</div>  <!--  End .max_width  -->
-		
+		<script src="js/script.js"></script>	
 	</body>
 
 </html>
